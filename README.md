@@ -4,6 +4,14 @@
 ```
 An open sourced hacking tool written in c++
 ```
+### Initial Setup
+```
+clone Drift
+chmod +x prerequisites.sh
+chmod +x start.sh
+./prerequisites.sh
+./start.sh
+```
 
 ### Photon setup
 ```
