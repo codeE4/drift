@@ -1,8 +1,14 @@
 #!/bin/bash
 
+echo "---------------------------------------------------------"
+echo "-------------------You found a Chug Jug------------------"
+echo "---------------------------------------------------------"
+
 ###BasicPackages
 echo "---------------------------------------------------------"
 echo "------------------Installing Packages--------------------"
+echo "---------------------------------------------------------"
+echo "-----------------This may take some time-----------------"
 echo "---------------------------------------------------------"
 sleep 2;
 
@@ -16,12 +22,36 @@ apt install vim -y
 apt install sudo -y
 apt install gnupg gnupg2 gnupg1 -y
 apt install conntrack -y
+apt install nodejs -y
+apt install build-essential -y
+apt install libreadline-dev -y
+apt install libssl-dev -y
+apt install libpq5 -y
+apt install libpq-dev -y
+apt install libreadline5 -y
+apt install libsqlite3-dev -y
+apt install libpcap-dev -y
+apt install git-core -y
+apt install autoconf -y
+apt install postgresql -y
+apt install pgadmin3 -y
+apt install zlib1g-dev -y
+apt install libxml2-dev -y
+apt install libxslt1-dev -y
+apt install vncviewer -y
+apt install libyaml-dev -y
+apt install zlib1g-dev -y
+apt install nmap -y
+apt install dig -y
+apt install whois -y
+apt install tshark -y
+
 
 timedatectl set-timezone America/New_York
 
 #Photon
 echo "---------------------------------------------------------"
-echo "------------------Installing Photon--------------------"
+echo "------------------Installing Photon----------------------"
 echo "---------------------------------------------------------"
 sleep 2;
 
@@ -41,9 +71,12 @@ sleep 2;
 cd /root/
 sudo apt --yes install snapd
 snap install lxd
-echo "LXD Init"
-echo "Waiting 30 seconds for LXD to spin up"
-sleep 30;
+echo "--------------------------------------"
+echo "--------------LXD Init----------------"
+echo "--------------------------------------"
+echo "Waiting 60 seconds for LXD to spin up"
+echo "--------------------------------------"
+sleep 60;
 
 cat > /root/.lxd-answers.txt <<- EOF
 yes
@@ -97,11 +130,17 @@ echo "---------------------------------------------------------"
 echo "----------------Dont do anything illegal-----------------"
 echo "---------------------------------------------------------"
 echo "--------------------------or-----------------------------"
-echo "---------------------------------------------------------"
-echo "---------------------------------------------------------"
-echo "---------------------------------------------------------"
-echo "---------------------------------------------------------"
-echo "---------------------------------------------------------"
-echo "---------------------------------------------------------"
-echo "-------------------Stay Annonymous-----------------------"
+echo "--------------------S------------------------------------"
+echo "-------------------------T-------------------------------"
+echo "-------------------------------A-------------------------"
+echo "------------------------------------Y--------------------"
+echo "-------------------------------A-------------------------"
+echo "-------------------------N-------------------------------"
+echo "--------------------O------------------------------------"
+echo "---------------N-----------------------------------------"
+echo "---------Y-----------------------------------------------"
+echo "---M-----------------------------------------------------"
+echo "---------O-----------------------------------------------"
+echo "---------------U-----------------------------------------"
+echo "---------------------S-----------------------------------"
 echo "---------------------------------------------------------"
