@@ -12,8 +12,9 @@ chmod +x start.sh
 ./prerequisites.sh
 ./start.sh
 ```
+### Manual Setup --- Doing the following steps
 
-### Photon setup
+### Photon Setup
 ```
 Clone Photon:
 
@@ -42,7 +43,7 @@ lxc publish base --alias=base
 lxc delete base --force
 ```
 
-### Drift setup
+### Drift Setup
 ```
 Clone Drift: 
 
