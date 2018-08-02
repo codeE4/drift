@@ -56,8 +56,10 @@ echo "------------------Installing Photon----------------------"
 echo "---------------------------------------------------------"
 sleep 2;
 
-cd /root/
+cd /root
+rm -rf photon
 git clone https://gitlab.acceleratefoundation.io/root/photon.git
+cd photon
 cd tools
 ./ubuntu-node-install
 npm install
@@ -89,7 +91,7 @@ default
 btrfs
 yes
 no
-15GB
+15
 no
 yes
 lxdbr0
@@ -183,8 +185,10 @@ echo "------------------Installing Base Image------------------"
 echo "---------------------------------------------------------"
 sleep 2;
 
-cd /root/
+cd /root
+rm -rf base-image
 git clone https://github.com/codeE4/base-image.git
+cd base-image
 photon container --create
 lxc stop base --force
 lxc publish base --alias=base
