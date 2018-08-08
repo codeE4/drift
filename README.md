@@ -2,19 +2,16 @@
 
 ### Overview
 ```
-An open sourced hacking tool written in c++
+An open sourced bash script library
 ```
 ### Initial Setup
 ```
 clone Drift
-chmod +x prerequisites.sh
-chmod +x start.sh
-./prerequisites.sh
-./start.sh
+chmod +x *.sh
 ```
 ### Manual Setup --- Doing the following steps
 
-### Photon Setup
+### Photon Setup(if you want it)
 ```
 Clone Photon:
 
@@ -26,7 +23,7 @@ sudo npm link
 which photon (should be /usr/local/bin/photon)
 ```
 
-### Install LXC with snapd
+### Install LXC with snapd(if you want it)
 ```
 sudo apt install snapd
 snap install lxd
